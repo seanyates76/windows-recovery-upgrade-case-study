@@ -1,0 +1,22 @@
+# Installers / images / archives
+*.iso
+*.img
+*.wim
+*.vhd*
+*.exe
+*.msi
+*.zip
+*.7z
+*.tar
+*.tar.*
+*.gz
+*.bz2
+*.xz
+
+# Common folders used to stash images
+ISO/
+isos/
+ventoy/
+downloads/
+installers/
+bin/
