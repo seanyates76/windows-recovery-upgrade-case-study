@@ -20,3 +20,11 @@ ventoy/
 downloads/
 installers/
 bin/
+
+# Editor/OS noise
+*.swp
+.*.swp
+*.kate-swp
+.*.kate-swp
+*~
+.DS_Store
