@@ -124,25 +124,25 @@ This case underscored how essential context is when working with automated tools
 
 ## Supporting Documentation
 
-* [Troubleshooting log](./troubleshooting.md)
-* [TestDisk media build notes](./testdisk-media.md)
-* [Session notes & timeline](./session-notes.md)
+* [Troubleshooting log](./docs/troubleshooting.md)
+* [TestDisk media build notes](./docs/tools/testdisk-media.md)
+* [Session notes & timeline](./docs/notes/session-notes.md)
 * [Automation context notes](./AGENTS.md)
-* Directory tree:
-  ![Project Tree](./fa81ae63-2d30-4e2e-bc89-50bb44a57c75.png)
 
 ---
 
 ## Repository Structure
 
-| File                                       | Purpose                                      |
-| ------------------------------------------ | -------------------------------------------- |
-| `README.md`                                | Case study summary and results               |
-| `troubleshooting.md`                       | Logs and command outputs                     |
-| `testdisk-media.md`                        | Recovery and build instructions              |
-| `session-notes.md`                         | Chronological notes and process record       |
-| `AGENTS.md`                                | Automation context and command documentation |
-| `fa81ae63-2d30-4e2e-bc89-50bb44a57c75.png` | Directory structure image                    |
+| File                                 | Purpose                                                 |
+| ------------------------------------ | ------------------------------------------------------- |
+| `README.md`                          | Case study summary and results                          |
+| `docs/troubleshooting.md`            | Logs and command outputs                                |
+| `docs/tools/testdisk-media.md`       | Recovery and build instructions                         |
+| `docs/notes/session-notes.md`        | Chronological notes and process record                  |
+| `docs/windows/driver-loading.md`     | Windows driver loading / setup notes                    |
+| `scripts/usb/`                       | USB preparation scripts (Win11, TestDisk, Ventoy pers.) |
+| `AGENTS.md`                          | Automation context and command documentation            |
+
 
 ---
 
