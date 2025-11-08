@@ -129,6 +129,30 @@ This case underscored how essential context is when working with automated tools
 * [Session notes & timeline](./docs/notes/session-notes.md)
 * [Automation context notes](./AGENTS.md)
 
+<details>
+<summary>Directory Tree (key paths)</summary>
+
+```text
+.
+├── AGENTS.md
+├── README.md
+├── docs
+│   ├── notes
+│   │   └── session-notes.md
+│   ├── tools
+│   │   └── testdisk-media.md
+│   ├── troubleshooting.md
+│   └── windows
+│       └── driver-loading.md
+└── scripts
+    └── usb
+        ├── prepare-testdisk-usb.sh
+        ├── prepare-usb.sh
+        └── prepare-ventoy-persistent-usb.sh
+```
+
+</details>
+
 ---
 
 ## Repository Structure
