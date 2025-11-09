@@ -4,6 +4,14 @@
 
 ---
 
+## At a Glance
+
+- Situation: Windows 10 activation failure with systemic corruption.
+- Constraints: Windows 10 EOL; recovery-first; preserve client data.
+- Actions: Recovered partitions (TestDisk), rebuilt EFI (bcdboot), in-place upgrade to Windows 11.
+- Outcome: Boot restored; activation succeeded; updates healthy; files/apps preserved.
+- Accountability: Immediately acknowledged an inadvertent `diskpart clean`, communicated impact and remediation plan, executed recovery, and documented safeguards.
+
 ## Summary
 
 A client’s Windows 10 Pro system refused activation despite a valid license key. Investigation revealed severe corruption of activation, update, and boot services following a failed Windows update. With Windows 10 officially out of support, I proposed a clean upgrade to Windows 11. The process evolved into a full EFI, partition, and activation rebuild—recovering the client’s data and successfully upgrading to a genuine Windows 11 Pro installation.
@@ -155,20 +163,6 @@ This case underscored how essential context is when working with automated tools
 
 ---
 
-## Repository Structure
-
-| File                                 | Purpose                                                 |
-| ------------------------------------ | ------------------------------------------------------- |
-| `README.md`                          | Case study summary and results                          |
-| `docs/troubleshooting.md`            | Logs and command outputs                                |
-| `docs/tools/testdisk-media.md`       | Recovery and build instructions                         |
-| `docs/notes/session-notes.md`        | Chronological notes and process record                  |
-| `docs/windows/driver-loading.md`     | Windows driver loading / setup notes                    |
-| `scripts/usb/`                       | USB preparation scripts (Win11, TestDisk, Ventoy pers.) |
-| `AGENTS.md`                          | Automation context and command documentation            |
-
-
----
 
 ## Technical Appendix (for Reviewers)
 
